@@ -1,0 +1,52 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(253, 254, 255, 0.288),
+      rgba(17, 21, 37, 0.6),
+      rgba(1, 5, 15, 0.7)
+    ),
+    url(images/donation5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.text-box {
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 20%;
+  text-align: center;
+}
+.text-box h1 {
+  font-size: 61px;
+  line-height: 50%;
+}
+.text-box p {
+  margin: 10px 0 40px;
+  font-size: 21px;
+  line-height: 10%;
+}
+.text-box h2 {
+  color: aquamarine;
+}
+.Explore-button {
+  display: inline-block;
+  text-decoration: none;
+  background: green;
+  color: white;
+  padding: 12px 34px;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+.Explore-button:hover {
+  border: 1px solid green;
+  background: white;
+  color: green;
+}
