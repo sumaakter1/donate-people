@@ -34,7 +34,7 @@ body {
 .text-box h2 {
   color: aquamarine;
 }
-.Explore-button {
+.button {
   display: inline-block;
   text-decoration: none;
   background: green;
@@ -45,8 +45,47 @@ body {
   border-radius: 5px;
   margin-top: 50px;
 }
-.Explore-button:hover {
+.button:hover {
   border: 1px solid green;
   background: white;
   color: green;
+}
+.donate-section {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
+}
+.donate-section h1 {
+  font-size: 40px;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+.flex-container div {
+  background-color: #f1f1f1;
+  width: 150px;
+  margin: 20px;
+  text-align: center;
+  line-height: 70px;
+  font-size: 30px;
+  color: #696969;
+  border-radius: 5px;
+}
+.flex-container div:hover {
+  border: 1px solid green;
+  background: white;
+  color: green;
+}
+input {
+  border: none;
+  position: relative;
+  left: 46%;
+}
+
+#center {
+  margin-top: 20px;
+  position: absolute;
+  left: 45%;
 }
