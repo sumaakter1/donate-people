@@ -82,10 +82,36 @@ input {
   border: none;
   position: relative;
   left: 46%;
+  margin-top: 50px;
 }
 
 #donate-button {
   margin-top: 20px;
   position: absolute;
   left: 45%;
+}
+.box {
+  display: flex;
+  justify-content: center;
+}
+.service {
+  background-color: #f1f1f1;
+  width: 333px;
+  height: 300px;
+  margin: 20px;
+  padding: 20px 20px;
+  text-align: center;
+  border: 1px solid green;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.service p {
+  color: gray;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  width: 19%;
 }
