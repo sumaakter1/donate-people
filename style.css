@@ -115,3 +115,22 @@ img {
   margin-top: 40px;
   width: 19%;
 }
+.flexible-container {
+  display: flex;
+}
+.flexible-container img {
+  width: 450px;
+  height: 400px;
+  border-radius: 5px;
+}
+.relief {
+  width: 400px;
+  padding: 50px 120px;
+  text-align: center;
+}
+.relief h1 {
+  font-size: 30px;
+}
+section {
+  margin-top: 70px;
+}
